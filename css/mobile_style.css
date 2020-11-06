@@ -1,0 +1,125 @@
+@media screen and (max-width:1100px){
+    .container-nav nav{
+        flex-direction: column;
+        padding:20px 0;
+    }
+    .container-nav li{
+        margin:0 20px;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .container-social{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:910px){
+    .container-title{
+        justify-content: center;
+        padding:20px 0;
+        text-align: center;
+    }
+    .article-title::after{
+        margin: 0 auto;
+    }
+    .article-description{
+        max-width: 100%;
+    }
+    .container-social > div:first-child{
+        justify-content: center;
+        text-align: center;
+        padding:20px 0;
+    }
+    .container-tab > article:first-child{
+        align-items: center;
+        flex-direction: column;
+        padding:20px 0;
+    }
+    .box-tab, .box-tab ul{
+        display:flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .box-tab li{
+        flex:1;
+        margin: 0 2px;
+    }
+
+    .container-sub > article{
+        justify-content: center;
+        padding:20px 0;
+    }
+    .sub-description{
+        padding:20px 0;
+        text-align: center;
+    }
+    h3::after{
+        margin: 0 auto;
+    }
+    .box-sub{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-sub-img{
+        margin: 10px 0;
+    }
+
+    .container-picture > article{
+        justify-content: center;
+        padding:20px 0;
+    }
+    .awesome-title{
+        padding:20px 0;
+    }
+    .awesome-description{
+        justify-content: center;
+    }
+    .awesome-description article{
+        margin-bottom: 50px;
+    }
+    .container-pricing{
+        padding:20px 0;
+    }
+    .pricing-description{
+        justify-content: center;
+    }
+    .box-pricing{
+        margin: 20px;
+    }
+    .container-customers{
+        padding:20px 0;
+    }
+    .container-contact{
+        padding:20px 0;
+    }
+    .contact-form{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    .container-nav ul{
+        flex-direction: column
+    }
+    .container-nav li{
+        margin: 10px 0;
+    }
+    .container-social img{
+        max-width:300px;
+        padding:20px 0;
+    }
+    .customers-sub-title + section{
+        justify-content: center;
+    }
+    .picture-shadow{
+        width:100%;
+    }
+    .container-picture p{
+        width:100%;
+        text-align: center;
+    }
+    section{
+        padding: 0 20px;
+    }
+}
